@@ -1,0 +1,11 @@
+/Users/hitengupta/Projects/EatOut/bin/Debug/netcoreapp2.0/EatOut.deps.json
+/Users/hitengupta/Projects/EatOut/bin/Debug/netcoreapp2.0/EatOut.runtimeconfig.json
+/Users/hitengupta/Projects/EatOut/bin/Debug/netcoreapp2.0/EatOut.runtimeconfig.dev.json
+/Users/hitengupta/Projects/EatOut/bin/Debug/netcoreapp2.0/EatOut.dll
+/Users/hitengupta/Projects/EatOut/bin/Debug/netcoreapp2.0/EatOut.pdb
+/Users/hitengupta/Projects/EatOut/obj/Debug/netcoreapp2.0/EatOut.csproj.CoreCompileInputs.cache
+/Users/hitengupta/Projects/EatOut/obj/Debug/netcoreapp2.0/EatOut.AssemblyInfoInputs.cache
+/Users/hitengupta/Projects/EatOut/obj/Debug/netcoreapp2.0/EatOut.AssemblyInfo.cs
+/Users/hitengupta/Projects/EatOut/obj/Debug/netcoreapp2.0/EatOut.dll
+/Users/hitengupta/Projects/EatOut/obj/Debug/netcoreapp2.0/EatOut.pdb
+/Users/hitengupta/Projects/EatOut/obj/Debug/netcoreapp2.0/EatOut.csprojAssemblyReference.cache
