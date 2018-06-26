@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using OdeToFood.models;
 using OdeToFood.Services;
+using OdeToFood.ViewModels;
 
 namespace OdeToFood.Pages
 {
@@ -22,7 +23,12 @@ namespace OdeToFood.Pages
 
         public void OnGet()
         {
+            //var model = new HomeIndexViewModel();
+            //model.Restaurants = _restaurantdata.GetAll();
+            //_restaurant = model.Restaurants;
+
             _restaurant = _restaurantdata.GetAll();
+            
         }
     }
 }

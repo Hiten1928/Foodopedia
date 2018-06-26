@@ -22,7 +22,6 @@
     <Folder Include="controllers\" />
     <Folder Include="models\" />
     <Folder Include="Services\" />
-    <Folder Include="Views\Home\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Data\" />
   </ItemGroup>
