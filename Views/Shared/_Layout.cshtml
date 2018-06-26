@@ -12,8 +12,9 @@
     <div>
         @DateTime.Now.Year
     </div>
-    <div>
+    <footer>
         @RenderSection("footer", required: false)
-    </div>
+        @await Component.InvokeAsync("Greeter")
+    </footer>
 </body>
 </html>
