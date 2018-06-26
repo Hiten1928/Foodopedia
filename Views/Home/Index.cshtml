@@ -1,0 +1,25 @@
+﻿@model HomeIndexViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@Model.CurrentMessage</h1>
+
+
+@foreach (var restaurant in Model.Restaurants)
+{
+    @Html.Partial("_Summary", restaurant)
+
+}
+
+
+<a asp-action="Create">Add Restaurant</a>
+
+<br>
+
+@section footer{
+    @Model.CurrentMessage
+}
+
