@@ -15,7 +15,8 @@
     <footer>
         @RenderSection("footer", required: false)
         <vc:greeter></vc:greeter>
-        @if (User.Identity.IsAuthenticated)
+        <vc:login-logout></vc:login-logout>
+        @*@if (User.Identity.IsAuthenticated)
         {
             foreach(var identity in User.Identities)
             {
@@ -38,7 +39,7 @@
         {
             <div>Please Sign In!!</div>
 
-        }
+        }*@
         @await Component.InvokeAsync("Greeter")
     </footer>
 </body>
