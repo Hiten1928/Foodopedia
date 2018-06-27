@@ -57,19 +57,19 @@ namespace OdeToFood
 
         app.UseStaticFiles();
 
-            app.UseNodeModules();
+            app.UseNodeModules(env.ContentRootPath);
 
         app.UseAuthentication();
 
         app.UseMvc(ConfigureRoutes);
 
 
-        app.Run(async (context) =>
-        {
-            var greeting = greeter.GetMessageOfTheday();
-            context.Response.ContentType = "text/plain";
-            await context.Response.WriteAsync("notfound");
-        });
+        //app.Run(async (context) =>
+        //{
+        //    var greeting = greeter.GetMessageOfTheday();
+        //    context.Response.ContentType = "text/plain";
+        //    await context.Response.WriteAsync("notfound");
+        //});
     }
 
     private void ConfigureRoutes(IRouteBuilder routeBuilder)

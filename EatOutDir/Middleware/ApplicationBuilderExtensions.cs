@@ -1,14 +1,9 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.FileProviders;
-using System;
-using System.Collections.Generic;
+﻿using Microsoft.Extensions.FileProviders;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace OdeToFood.Middleware
+namespace Microsoft.AspNetCore.Builder
 {
-    public class ApplicationBuilderExtensions
+    public static class ApplicationBuilderExtensions
     {
         public static IApplicationBuilder UseNodeModules(this IApplicationBuilder app, string root)
         {
@@ -17,8 +12,10 @@ namespace OdeToFood.Middleware
 
             var options = new StaticFileOptions();
             options.RequestPath = "/node_modules";
+            options.FileProvider = fileProvider;
 
-            app.UseStaticFiles();
+            app.UseStaticFiles(options);
+
 
             return app;
         }
