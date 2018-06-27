@@ -30,3 +30,14 @@ C:\Users\hiten\Desktop\EatOut\obj\Debug\netcoreapp2.0\OdeToFood.AssemblyInfoInpu
 C:\Users\hiten\Desktop\EatOut\obj\Debug\netcoreapp2.0\OdeToFood.AssemblyInfo.cs
 C:\Users\hiten\Desktop\EatOut\obj\Debug\netcoreapp2.0\OdeToFood.dll
 C:\Users\hiten\Desktop\EatOut\obj\Debug\netcoreapp2.0\OdeToFood.pdb
+C:\Users\hiten\Desktop\EatOut\EatOutDir\bin\Debug\netcoreapp2.0\OdeToFood.deps.json
+C:\Users\hiten\Desktop\EatOut\EatOutDir\bin\Debug\netcoreapp2.0\OdeToFood.runtimeconfig.json
+C:\Users\hiten\Desktop\EatOut\EatOutDir\bin\Debug\netcoreapp2.0\OdeToFood.runtimeconfig.dev.json
+C:\Users\hiten\Desktop\EatOut\EatOutDir\bin\Debug\netcoreapp2.0\OdeToFood.dll
+C:\Users\hiten\Desktop\EatOut\EatOutDir\bin\Debug\netcoreapp2.0\OdeToFood.pdb
+C:\Users\hiten\Desktop\EatOut\EatOutDir\obj\Debug\netcoreapp2.0\OdeToFood.csprojResolveAssemblyReference.cache
+C:\Users\hiten\Desktop\EatOut\EatOutDir\obj\Debug\netcoreapp2.0\OdeToFood.csproj.CoreCompileInputs.cache
+C:\Users\hiten\Desktop\EatOut\EatOutDir\obj\Debug\netcoreapp2.0\OdeToFood.AssemblyInfoInputs.cache
+C:\Users\hiten\Desktop\EatOut\EatOutDir\obj\Debug\netcoreapp2.0\OdeToFood.AssemblyInfo.cs
+C:\Users\hiten\Desktop\EatOut\EatOutDir\obj\Debug\netcoreapp2.0\OdeToFood.dll
+C:\Users\hiten\Desktop\EatOut\EatOutDir\obj\Debug\netcoreapp2.0\OdeToFood.pdb
