@@ -13168,11 +13168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hiten\\Desktop\\EatOut\\OdeToFood.csproj",
+      "projectUniqueName": "C:\\Users\\hiten\\Desktop\\EatOut\\EatOutDir\\OdeToFood.csproj",
       "projectName": "OdeToFood",
-      "projectPath": "C:\\Users\\hiten\\Desktop\\EatOut\\OdeToFood.csproj",
+      "projectPath": "C:\\Users\\hiten\\Desktop\\EatOut\\EatOutDir\\OdeToFood.csproj",
       "packagesPath": "C:\\Users\\hiten\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hiten\\Desktop\\EatOut\\obj\\",
+      "outputPath": "C:\\Users\\hiten\\Desktop\\EatOut\\EatOutDir\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
