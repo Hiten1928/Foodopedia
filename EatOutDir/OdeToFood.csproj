@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Shared\Components\LoginLogout\" />
     <Folder Include="wwwroot\" />
     <Folder Include="controllers\" />
     <Folder Include="models\" />
