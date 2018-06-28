@@ -3,12 +3,26 @@
 @{ 
     ViewBag.Title = Model.Name;
 }
-<h1>@Model.Name</h1>
-<div>
-    Id: @Model.Id
-</div>
-<div>
-    Cuisine: @Model.Cuisine
-</div>
 
-<a asp-action="Index" asp-controller="Home">Back to List</a>
+<style>
+    .panel1 {
+        background: linear-gradient(#897730, transparent)
+    }
+
+    .btn-default{
+        color:black
+    }
+</style>
+
+<section class="panel-default">
+    <h1 class="panel-heading panel1">@Model.Name</h1>
+    <div class="panel-body panel1" style="color:white">
+        Id: @Model.Id
+    </div>
+    <div class="panel-footer panel1" style="color:white">
+        Cuisine: @Model.Cuisine
+    </div>
+</section>
+<br />
+    <br />
+<a class="btn btn-default " style="color:black" asp-action="Index" asp-controller="Home">Back to List</a>

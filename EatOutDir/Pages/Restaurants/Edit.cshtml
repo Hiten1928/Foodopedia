@@ -10,6 +10,7 @@
     <input type="hidden" asp-for="Restaurant.Id" />
 
     <div>
+        <h3><b>Welcome!!</b>    @User.Identity.Name</h3>
         <label asp-for="Restaurant.Name"></label>
         <input asp-for="Restaurant.Name" />
         <span asp-validation-for="Restaurant.Name"></span>

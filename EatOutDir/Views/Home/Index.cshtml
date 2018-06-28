@@ -5,8 +5,20 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>All Restaurants</h1>
-
+<style>
+    .font {
+        font-family: American, Typewriter, serif;
+        color: white;
+        /*font-size:25%;*/
+        text-align: center
+    }
+</style>
+<li>
+    <h1 class="font"><b>All Restaurants</b></h1><br />
+    
+    
+</li>
+<br />
 
 @foreach (var restaurant in Model.Restaurants)
 {
